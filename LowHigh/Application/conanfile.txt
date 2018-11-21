@@ -1,0 +1,5 @@
+[requires]
+HighLevelLibrary/0.1@martin/testing
+
+[generators]
+cmake
