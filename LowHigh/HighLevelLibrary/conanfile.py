@@ -16,5 +16,5 @@ class HighLevelLibrary(ConanFile):
 
 
     def package_info(self):
-        self.cpp_info.libdirs = ["my_lib_dir"]
+        self.cpp_info.libdirs = ["lib"]
         self.cpp_info.libs = ["HighLevelLibrary"]
