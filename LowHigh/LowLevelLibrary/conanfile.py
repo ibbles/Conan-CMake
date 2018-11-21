@@ -21,4 +21,4 @@ class LowLevelLibrary(ConanFile):
 
     def package_info(self):
         self.cpp_info.libdirs = ["lib/linux"]
-        self.cpp_info.libs = ["LowLevelInfo"]
+        self.cpp_info.libs = ["LowLevelLibrary"]
